@@ -22,10 +22,10 @@
         'opsz' 24
     }
   </style>
-  <main class="p-10 h-full Titillium">
-    <div class="flex container mx-auto w-[960px] h-full bg-gray-100 rounded-xl overflow-hidden">
-      <aside class="w-1/4 max-h-max bg-slate-900 p-8 text-white flex flex-col gap-10">
-        <header class="flex gap-4 items-center flex-col border-b-2 border-b-white pb-8">
+  <main class="p-2 lg:p-10 h-full Titillium">
+    <div class="flex flex-col lg:flex-row container mx-auto lg:w-[960px] h-full bg-gray-100 rounded-xl overflow-hidden">
+      <aside class="lg:w-1/4 max-h-max bg-slate-900 p-8 text-white flex flex-col gap-10 rounded-xl lg:rounded-none">
+        <header class="flex gap-4 items-center lg:flex-col border-b-2 border-b-white pb-8">
           <div class="image w-32 h-32">
             <img class="rounded-full" src="https://avatars.githubusercontent.com/u/101291963?v=4" alt="main_image" />
           </div>
@@ -62,8 +62,8 @@
 
         </ul>
       </aside>
-      <section class="w-3/4 h-full p-8 flex flex-col gap-8">
-        <div class="flex flex-col">
+      <section class="lg:w-3/4 h-full p-2 lg:p-8 flex flex-col gap-8">
+        <div class="flex flex-col gap-2">
           <h2 class="text-xl font-semibold">About</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt eum magni fugit voluptatem quaerat
             repellat? Porro assumenda quasi atque amet odit necessitatibus vitae! Vel temporibus quae laudantium a eius
@@ -97,8 +97,8 @@
         </div>
         <div class="flex flex-col w-full">
           <h2 class="text-xl font-semibold py-2">Hard skills</h2>
-          <div class="flex w-full gap-8">
-            <ul class="flex flex-col w-1/2 gap-2">
+          <div class="flex flex-col w-full gap-8">
+            <ul class="flex flex-col lg:w-1/2 gap-2">
               <li class="flex flex-col items center">
                 <div class="flex gap-2 items-center">
                   <i class="fa-brands fa-html5"></i>
@@ -137,7 +137,7 @@
               </li>
 
             </ul>
-            <ul class="flex flex-col w-1/2 gap-2">
+            <ul class="flex flex-col lg:w-1/2 gap-2">
               <li class="flex flex-col items center">
                 <div class="flex gap-2 items-center">
                   <i class="fa-brands fa-react"></i>
@@ -181,17 +181,17 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="text-xl font-semibold">Soft skills</h2>
-          <ul>
-            <li class="flex gap-2 items-center">
-              <i class="fa-regular fa-comments"></i>
+          <ul class="flex flex-col gap-2">
+            <li class="flex gap-2 items-start lg:items-center">
+              <i class="fa-regular fa-comments pt-1 lg:pt-0"></i>
               <h3>Communication and Negotiation Skills</h3>
             </li>
-            <li class="flex gap-2 items-center">
-              <i class="fa-regular fa-compass"></i>
+            <li class="flex gap-2 items-start lg:items-center">
+              <i class="fa-regular fa-compass pt-1 lg:pt-0"></i>
               <h3>Leadership, Responsibility and Motivation</h3>
             </li>
-            <li class="flex gap-2 items-center">
-              <i class="fa-solid fa-compass"></i>
+            <li class="flex gap-2 items-start lg:items-center">
+              <i class="fa-solid fa-compass pt-1 lg:pt-0"></i>
               <h3>Teamwork</h3>
             </li>
           </ul>

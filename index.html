@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./style.css" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <script src="https://kit.fontawesome.com/9df551b89a.js"
-      crossorigin="anonymous"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>CV</title>
-  </head>
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <script src="https://kit.fontawesome.com/9df551b89a.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <title>CV</title>
 </head>
 
 <body>
@@ -25,19 +23,17 @@
         <header
           class="flex gap-2 lg:gap-4 items-center lg:flex-col flex-row border-b-2 border-b-white pb-4 lg:pb-8 w-full">
           <div class="image">
-            <img class="rounded-full w-40 h-auto lg:w-64  "
-              src="./assets/images/photo.jpg"
-              alt="main_image" />
+            <img class="rounded-full w-40 h-auto lg:w-64  " src="./assets/images/photo.jpg" alt="main_image">
           </div>
           <div class="inf flex flex-col gap-2 ">
             <h1 class="text-3xl md:text-5xl text-right sm:text-start">Alexey</h1>
             <h2 class="text-xl md:text-2xl text-right sm:text-start">Kohanovich</h2>
             <p class="text-sm opacity-75 hidden">🇧🇾 28 y.o.</p>
-            <p class="text-sm font-light text-right sm:text-start">Junior Front-end developer at BISC</p>
+            <p class="text-sm font-light text-right sm:text-start">Junior
+              Front-end developer at BISC</p>
           </div>
         </header>
-        <ul
-          class="flex flex-col gap-2 lg:gap-4 border-b-2 border-b-white pb-4 lg:pb-8">
+        <ul class="flex flex-col gap-2 lg:gap-4 border-b-2 border-b-white pb-4 lg:pb-8">
           <li class="flex flex-col">
             <h3 class="uppercase opacity-75 font-light">english</h3>
             <p class="font-semibold text-md"> A2+</p>
@@ -47,7 +43,8 @@
             <p class="font-semibold text-md"> Minsk, Belarus</p>
           </li>
           <li class="flex flex-col">
-            <h3 class="uppercase opacity-75 font-light">MILITARY SERVICE STATUS</h3>
+            <h3 class="uppercase opacity-75 font-light">MILITARY SERVICE
+              STATUS</h3>
             <p class="font-semibold text-md"> Served</p>
           </li>
         </ul>
@@ -56,241 +53,223 @@
             <span class="material-symbols-outlined">
               mail
             </span>
-            <a href="mailto: alexeykoh@gmail.com">alexeykoh<span>@</span>gmail.com<a>
+            <a href="mailto:alexeykoh@gmail.com">alexeykoh<span>@</span>gmail.com</a>
+          </li>
+          <li class="flex gap-2"><span class="material-symbols-outlined">
+              link
+            </span><a target="_blank" href="https://github.com/Alexeykoh">github.com/Alexeykoh</a></li>
+          <li class="flex gap-2"><span class="material-symbols-outlined">
+              call
+            </span><a href="tel:+375-255-44-94-68">+375-255-44-94-68</a></li>
+
+        </ul>
+      </aside>
+      <section class="lg:w-3/4 h-full p-2 lg:p-8 flex flex-col gap-8 pt-8">
+        <div class="flex flex-col">
+          <h2 class="text-xl font-semibold">About</h2>
+          <div class="p-2">
+            <p>Frontend Developer with one year of experience in
+              leveraging
+              JavaScript frameworks to build responsive
+              websites, web applications, and interactive features that
+              drive
+              business growth.</p> <br>
+            <p>In development I use tools such as React/Angular,
+              Typescript,
+              Redux/NGRX, Axios, SCSS/Tailwind, Node.js,
+              Express.js, Webpack, ESLint, Git. Currently I am in the
+              position
+              of junior developer.</p>
+          </div>
+        </div>
+        <div class="flex flex-col gap-2">
+          <h2 class="text-xl font-semibold">Education</h2>
+          <ul class="flex flex-col gap-1 p-2">
+            <li>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3 class="opacity-75 font-light">Higher education</h3>
+              </div>
+              <p>Finance and credit.</p>
+            </li>
+            <li>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3 class="opacity-75 font-light">Higher education</h3>
+              </div>
+              <p>Software engineer.</p>
+            </li>
+            <li>
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-file-lines"></i>
+                <h3 class="opacity-75 font-light">RS School</h3>
+              </div>
+              <p>Front-end Developer</p>
+            </li>
+          </ul>
+        </div>
+        <div class="flex flex-col w-full">
+          <h2 class="text-xl font-semibold py-2">Hard skills</h2>
+          <div class="flex flex-col md:flex-row w-full gap-2 lg:gap-8 p-2">
+            <ul class="flex flex-col md:w-1/2 gap-2">
+              <li class="flex flex-col items center">
+                <div class="flex gap-2 items-center">
+                  <i class="fa-brands fa-html5"></i>
+                  <h4>HTML</h4>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 80%"></div>
+                </div>
               </li>
-              <li class="flex gap-2"><span class="material-symbols-outlined">
-                  link
-                </span><a target="_blank" href="https://github.com/Alexeykoh">github.com/Alexeykoh</a></li>
-              <li class="flex gap-2"><span class="material-symbols-outlined">
-                  call
-                </span><a type="phone" href="tel: +375-255-44-94-68">+375-255-44-94-68</a></li>
+              <li class="flex flex-col items center">
+                <div class="flex gap-2 items-center">
+                  <i class="fa-brands fa-css3-alt"></i>
+                  <h4>CSS/SCSS/Tailwind</h4>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="flex flex-col items center">
+                <div class="flex gap-2 items-center">
+                  <i class="fa-brands fa-js"></i>
+                  <h4>JS</h4>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 75%"></div>
+                </div>
+              </li>
+              <li class="flex flex-col items center">
+                <div class="flex gap-2 items-center">
+                  <i class="fa-brands fa-js"></i>
+                  <h4>TS</h4>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 60%"></div>
+                </div>
+              </li>
 
             </ul>
-          </aside>
-          <section class="lg:w-3/4 h-full p-2 lg:p-8 flex flex-col gap-8 pt-8">
-            <div class="flex flex-col">
-              <h2 class="text-xl font-semibold">About</h2>
-              <div class="p-2">
-                <p>Frontend Developer with one year of experience in leveraging
-                  JavaScript frameworks to build responsive
-                  websites, web applications, and interactive features that
-                  drive
-                  business growth.</p> <br>
-                <p>In development I use tools such as React/Angular, Typescript,
-                  Redux/NGRX, Axios, SCSS/Tailwind, Node.js,
-                  Express.js, Webpack, ESLint, Git. Currently I am in the
-                  position
-                  of junior developer.</p>
-              </div>
-            </div>
-            <div class="flex flex-col gap-2">
-              <h2 class="text-xl font-semibold">Education</h2>
-              <ul class="flex flex-col gap-1 p-2">
-                <li>
-                  <div class="flex items-center gap-2">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                    <h3 class="opacity-75 font-light">Higher education</h3>
-                  </div>
-                  <p>Finance and credit.</p>
-                </li>
-                <li>
-                  <div class="flex items-center gap-2">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                    <h3 class="opacity-75 font-light">Higher education</h3>
-                  </div>
-                  <p>Software engineer.</p>
-                </li>
-                <li>
-                  <div class="flex items-center gap-2">
-                    <i class="fa-solid fa-file-lines"></i>
-                    <h3 class="opacity-75 font-light">RS School</h3>
-                  </div>
-                  <p>Front-end Developer</p>
-                </li>
-              </ul>
-            </div>
-            <div class="flex flex-col w-full">
-              <h2 class="text-xl font-semibold py-2">Hard skills</h2>
-              <div class="flex flex-col md:flex-row w-full gap-2 lg:gap-8 p-2">
-                <ul class="flex flex-col md:w-1/2 gap-2">
-                  <li class="flex flex-col items center">
-                    <div class="flex gap-2 items-center">
-                      <i class="fa-brands fa-html5"></i>
-                      <h4>HTML</h4>
-                    </div>
-                    <div
-                      class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                      <div class="bg-blue-600 h-2.5 rounded-full"
-                        style="width: 80%"></div>
-                    </div>
-                  </li>
-                  <li class="flex flex-col items center">
-                    <div class="flex gap-2 items-center">
-                      <i class="fa-brands fa-css3-alt"></i>
-                      <h4>CSS/SCSS/Tailwind</h4>
-                    </div>
-                    <div
-                      class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                      <div class="bg-blue-600 h-2.5 rounded-full"
-                        style="width: 80%"></div>
-                    </div>
-                  </li>
-                  <li class="flex flex-col items center">
-                    <div class="flex gap-2 items-center">
-                      <i class="fa-brands fa-js"></i>
-                      <h4>JS</h4>
-                    </div>
-                    <div
-                      class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                      <div class="bg-blue-600 h-2.5 rounded-full"
-                        style="width: 75%"></div>
-                    </div>
-                  </li>
-                  <li class="flex flex-col items center">
-                    <div class="flex gap-2 items-center">
-                      <i class="fa-brands fa-js"></i>
-                      <h4>TS</h4>
-                    </div>
-                    <div
-                      class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                      <div class="bg-blue-600 h-2.5 rounded-full"
-                        style="width: 60%"></div>
-                    </div>
-                  </li>
+            <ul class="flex flex-col md:w-1/2 gap-2">
+              <li class="flex flex-col items center">
+                <div class="flex gap-2 items-center">
+                  <i class="fa-brands fa-react"></i>
+                  <h4>React</h4>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 70%"></div>
+                </div>
+              </li>
+              <li class="flex flex-col items center">
+                <div class="flex gap-2 items-center">
+                  <i class="fa-solid fa-database"></i>
+                  <h4>Redux</h4>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 50%"></div>
+                </div>
+              </li>
+              <li class="flex flex-col items center">
+                <div class="flex gap-2 items-center">
+                  <i class="fa-brands fa-angular"></i>
+                  <h4>Angular</h4>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 50%"></div>
+                </div>
+              </li>
+              <li class="flex flex-col items center">
+                <div class="flex gap-2 items-center">
+                  <i class="fa-brands fa-node-js"></i>
+                  <h4>Node.js/Express</h4>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 40%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
 
-                </ul>
-                <ul class="flex flex-col md:w-1/2 gap-2">
-                  <li class="flex flex-col items center">
-                    <div class="flex gap-2 items-center">
-                      <i class="fa-brands fa-react"></i>
-                      <h4>React</h4>
-                    </div>
-                    <div
-                      class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                      <div class="bg-blue-600 h-2.5 rounded-full"
-                        style="width: 70%"></div>
-                    </div>
-                  </li>
-                  <li class="flex flex-col items center">
-                    <div class="flex gap-2 items-center">
-                      <i class="fa-solid fa-database"></i>
-                      <h4>Redux</h4>
-                    </div>
-                    <div
-                      class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                      <div class="bg-blue-600 h-2.5 rounded-full"
-                        style="width: 50%"></div>
-                    </div>
-                  </li>
-                  <li class="flex flex-col items center">
-                    <div class="flex gap-2 items-center">
-                      <i class="fa-brands fa-angular"></i>
-                      <h4>Angular</h4>
-                    </div>
-                    <div
-                      class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                      <div class="bg-blue-600 h-2.5 rounded-full"
-                        style="width: 50%"></div>
-                    </div>
-                  </li>
-                  <li class="flex flex-col items center">
-                    <div class="flex gap-2 items-center">
-                      <i class="fa-brands fa-node-js"></i>
-                      <h4>Node.js/Express</h4>
-                    </div>
-                    <div
-                      class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                      <div class="bg-blue-600 h-2.5 rounded-full"
-                        style="width: 40%"></div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-
-            </div>
-            <div class="flex flex-col gap-2">
-              <h2 class="text-xl font-semibold">Soft skills</h2>
-              <ul class="flex flex-col gap-2 lg:gap-0 p-2">
-                <li class="flex flex-col lg:flex-row lg:gap-2 lg:items-center ">
-                  <i class="fa-regular fa-comments pt-1 lg:pt-0"></i>
-                  <h3>Communication and Negotiation Skills</h3>
-                </li>
-                <li class="flex flex-col lg:flex-row lg:gap-2 lg:items-center ">
-                  <i class="fa-regular fa-compass pt-1 lg:pt-0"></i>
-                  <h3>Leadership, Responsibility and Motivation</h3>
-                </li>
-                <li class="flex flex-col lg:flex-row lg:gap-2 lg:items-center ">
-                  <i class="fa-solid fa-compass pt-1 lg:pt-0"></i>
-                  <h3>Teamwork</h3>
-                </li>
-              </ul>
-            </div>
-            <div class="flex flex-col gap-2">
-              <h2 class="text-xl font-semibold">Expirience</h2>
-              <ul class="flex flex-col gap-4">
-                <li
-                  class="flex flex-col p-2 rounded-xl duration-75 hover:bg-gray-300">
-                  <div class>
-                    <p class="font-light text-xs">07.2021 — 01.2022</p>
-                    <h1 class="font-semibold">Website development for <a
-                        class="text-slate-500" href="https://tlseng.com/"
-                        target="_blank">TLS ENG</a></h1>
-                  </div>
-                  <p>
-                    The site was developed based on the Bootstrap framework.
-                    JQuery and popper.js were used for user interaction.
-                    Working with Figma layout. Working in a team with a
-                    designer.
-                  </p>
-                </li>
-                <li
-                  class="flex flex-col p-2 rounded-xl duration-75 hover:bg-gray-300">
-                  <div class>
-                    <p class="font-light text-xs">03.2021 - 07.2022</p>
-                    <h1 class="font-semibold">Website development for <a
-                        class="text-slate-500"
-                        href="https://langspecialist.com/" target="_blank">Language
-                        Solutions</a></h1>
-                  </div>
-                  <p>
-                    The site was developed based on the Bootstrap + lottiefiles
-                    Player framework.
-                    To interact with the server and database, the OctoberCMS
-                    framework was used on the Laravel (PHP) backend.
-                  </p>
-                </li>
-                <li
-                  class="flex flex-col p-2 rounded-xl duration-75 hover:bg-gray-300">
-                  <div class>
-                    <p class="font-light text-xs">09.2022 - 03.2023</p>
-                    <h1 class="font-semibold">News editor app of <span
-                        class="text-slate-500">BISC</span></h1>
-                  </div>
-                  <p>
-                    Development of an HTML elements editor for a news portal.
-                    Application based on React, TypeScript, ReactHooks, Swiper,
-                    BeatifulDND, TipTap, Tailwind.
-                  </p>
-                </li>
-                <li
-                  class="flex flex-col p-2 rounded-xl duration-75 hover:bg-gray-300">
-                  <div class>
-                    <p class="font-light text-xs">03.2023 - 08.2023</p>
-                    <h1 class="font-semibold">Development and support of a
-                      corporate portal of <span class="text-slate-500">BISC</span></h1>
-                  </div>
-                  <p>
-                    Optimization, development of services, widgets and
-                    additional functionality. Used Angular, NGRX,
-                    ViewportScroller, Tailwind.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </section>
         </div>
-      </main>
+        <div class="flex flex-col gap-2">
+          <h2 class="text-xl font-semibold">Soft skills</h2>
+          <ul class="flex flex-col gap-2 lg:gap-0 p-2">
+            <li class="flex flex-col lg:flex-row lg:gap-2 lg:items-center ">
+              <i class="fa-regular fa-comments pt-1 lg:pt-0"></i>
+              <h3>Communication and Negotiation Skills</h3>
+            </li>
+            <li class="flex flex-col lg:flex-row lg:gap-2 lg:items-center ">
+              <i class="fa-regular fa-compass pt-1 lg:pt-0"></i>
+              <h3>Leadership, Responsibility and Motivation</h3>
+            </li>
+            <li class="flex flex-col lg:flex-row lg:gap-2 lg:items-center ">
+              <i class="fa-solid fa-compass pt-1 lg:pt-0"></i>
+              <h3>Teamwork</h3>
+            </li>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-2">
+          <h2 class="text-xl font-semibold">Expirience</h2>
+          <ul class="flex flex-col gap-4">
+            <li class="flex flex-col p-2 rounded-xl duration-75 hover:bg-gray-300">
+              <div class>
+                <p class="font-light text-xs">07.2021 — 01.2022</p>
+                <h1 class="font-semibold">Website development for <a class="text-slate-500" href="https://tlseng.com/"
+                    target="_blank">TLS ENG</a></h1>
+              </div>
+              <p>
+                The site was developed based on the Bootstrap framework.
+                JQuery and popper.js were used for user interaction.
+                Working with Figma layout. Working in a team with a
+                designer.
+              </p>
+            </li>
+            <li class="flex flex-col p-2 rounded-xl duration-75 hover:bg-gray-300">
+              <div class>
+                <p class="font-light text-xs">03.2021 - 07.2022</p>
+                <h1 class="font-semibold">Website development for <a class="text-slate-500"
+                    href="https://langspecialist.com/" target="_blank">Language
+                    Solutions</a></h1>
+              </div>
+              <p>
+                The site was developed based on the Bootstrap +
+                lottiefiles
+                Player framework.
+                To interact with the server and database, the OctoberCMS
+                framework was used on the Laravel (PHP) backend.
+              </p>
+            </li>
+            <li class="flex flex-col p-2 rounded-xl duration-75 hover:bg-gray-300">
+              <div class>
+                <p class="font-light text-xs">09.2022 - 03.2023</p>
+                <h1 class="font-semibold">News editor app of <span class="text-slate-500">BISC</span></h1>
+              </div>
+              <p>
+                Development of an HTML elements editor for a news portal.
+                Application based on React, TypeScript, ReactHooks,
+                Swiper,
+                BeatifulDND, TipTap, Tailwind.
+              </p>
+            </li>
+            <li class="flex flex-col p-2 rounded-xl duration-75 hover:bg-gray-300">
+              <div class>
+                <p class="font-light text-xs">03.2023 - 08.2023</p>
+                <h1 class="font-semibold">Development and support of a
+                  corporate portal of <span class="text-slate-500">BISC</span></h1>
+              </div>
+              <p>
+                Optimization, development of services, widgets and
+                additional functionality. Used Angular, NGRX,
+                ViewportScroller, Tailwind.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
 
-      <script src="./script.js" type="module"></script>
-    </body>
-  </html>
+  <script src="./script.js" type="module"></script>
+</body>
+
+</html>

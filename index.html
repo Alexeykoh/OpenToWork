@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-  
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./style.css" rel="stylesheet">
@@ -26,21 +26,22 @@
             <img class="rounded-full w-40 h-auto lg:w-64  " src="./assets/images/photo.jpg" alt="main_image">
           </div>
           <div class="inf flex flex-col gap-2 ">
-            <h1 class="text-3xl md:text-5xl text-right sm:text-start">Alexey</h1>
-            <h2 class="text-xl md:text-2xl text-right sm:text-start">Kohanovich</h2>
-            <p class="text-sm opacity-75 hidden">🇧🇾 28 y.o.</p>
-            <p class="text-sm font-light text-right sm:text-start">Junior
-              Front-end developer at BISC</p>
+            <h1 id="firstName" class="text-3xl md:text-5xl text-right sm:text-start">firstName</h1>
+            <h2 id="secondName" class="text-xl md:text-2xl text-right sm:text-start">secondName</h2>
+            <p id="age" class="text-sm opacity-75 hidden">🇧🇾 28 y.o.</p>
+            <p id="description" class="text-sm font-light text-right sm:text-start">
+              Middle Front-end developer at BISC
+            </p>
           </div>
         </header>
         <ul class="flex flex-col gap-2 lg:gap-4 border-b-2 border-b-white pb-4 lg:pb-8">
           <li class="flex flex-col">
             <h3 class="uppercase opacity-75 font-light">english</h3>
-            <p class="font-semibold text-md"> B1+</p>
+            <p id="language" class="font-semibold text-md"> A2+</p>
           </li>
           <li class="flex flex-col">
             <h3 class="uppercase opacity-75 font-light">LOCATIONS</h3>
-            <p class="font-semibold text-md"> Minsk, Belarus</p>
+            <p id="location" class="font-semibold text-md"> Minsk, Belarus</p>
           </li>
           <li class="flex flex-col">
             <h3 class="uppercase opacity-75 font-light">MILITARY SERVICE
@@ -48,7 +49,7 @@
             <p class="font-semibold text-md"> Served</p>
           </li>
         </ul>
-        <ul class="contactInfo space-y-1 text-sm">
+        <ul id="contacts" class="contactInfo space-y-1 text-sm">
           <li class="flex gap-2">
             <span class="material-symbols-outlined">
               mail
@@ -67,7 +68,7 @@
       <section class="lg:w-3/4 h-full p-2 lg:p-8 flex flex-col gap-8 pt-8">
         <div class="flex flex-col">
           <h2 class="text-xl font-semibold">About</h2>
-          <div class="p-2">
+          <div id="about" class="p-2">
             <p>Frontend Developer with one year of experience in
               leveraging
               JavaScript frameworks to build responsive
@@ -84,7 +85,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="text-xl font-semibold">Education</h2>
-          <ul class="flex flex-col gap-1 p-2">
+          <ul id="education" class="flex flex-col gap-1 p-2">
             <li>
               <div class="flex items-center gap-2">
                 <i class="fa-solid fa-graduation-cap"></i>
@@ -111,7 +112,7 @@
         <div class="flex flex-col w-full">
           <h2 class="text-xl font-semibold py-2">Hard skills</h2>
           <div class="flex flex-col md:flex-row w-full gap-2 lg:gap-8 p-2">
-            <ul class="flex flex-col md:w-1/2 gap-2">
+            <ul id="hardSkills" class="flex flex-row flex-wrap gap-2 w-full justify-between">
               <li class="flex flex-col items center">
                 <div class="flex gap-2 items-center">
                   <i class="fa-brands fa-html5"></i>
@@ -150,50 +151,12 @@
               </li>
 
             </ul>
-            <ul class="flex flex-col md:w-1/2 gap-2">
-              <li class="flex flex-col items center">
-                <div class="flex gap-2 items-center">
-                  <i class="fa-brands fa-react"></i>
-                  <h4>React</h4>
-                </div>
-                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 70%"></div>
-                </div>
-              </li>
-              <li class="flex flex-col items center">
-                <div class="flex gap-2 items-center">
-                  <i class="fa-solid fa-database"></i>
-                  <h4>Redux</h4>
-                </div>
-                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 50%"></div>
-                </div>
-              </li>
-              <li class="flex flex-col items center">
-                <div class="flex gap-2 items-center">
-                  <i class="fa-brands fa-angular"></i>
-                  <h4>Angular</h4>
-                </div>
-                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 50%"></div>
-                </div>
-              </li>
-              <li class="flex flex-col items center">
-                <div class="flex gap-2 items-center">
-                  <i class="fa-brands fa-node-js"></i>
-                  <h4>Node.js/Express</h4>
-                </div>
-                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 40%"></div>
-                </div>
-              </li>
-            </ul>
           </div>
 
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="text-xl font-semibold">Soft skills</h2>
-          <ul class="flex flex-col gap-2 lg:gap-0 p-2">
+          <ul id="softSkills" class="flex flex-col gap-2 lg:gap-0 p-2">
             <li class="flex flex-col lg:flex-row lg:gap-2 lg:items-center ">
               <i class="fa-regular fa-comments pt-1 lg:pt-0"></i>
               <h3>Communication and Negotiation Skills</h3>
@@ -209,8 +172,8 @@
           </ul>
         </div>
         <div class="flex flex-col gap-2">
-          <h2 class="text-xl font-semibold">Expirience</h2>
-          <ul class="flex flex-col gap-4">
+          <h2 class="text-xl font-semibold">Experience</h2>
+          <ul id="experience" class="flex flex-col gap-4">
             <li class="flex flex-col p-2 rounded-xl duration-75 hover:bg-gray-300">
               <div class>
                 <p class="font-light text-xs">07.2021 — 01.2022</p>

@@ -1,0 +1,110 @@
+{
+  "head": {
+    "firstName": "Alexei",
+    "secondName": "Kohanovich",
+    "age": "29 y.o.",
+    "description": "Middle Front-end developer at BISC",
+    "language": "A2",
+    "location": "Minsk, Belarus",
+    "contacts": [
+      {
+        "type": "email",
+        "value": "alexeykoh@gmail.com",
+        "link": "mailto:alexeykoh@gmail.com"
+      },
+      {
+        "type": "link",
+        "value": "kohanovich-alexei",
+        "link": "https://www.linkedin.com/in/kohanovich-alexei-a30469250/"
+      },
+      {
+        "type": "link",
+        "value": "github/Alexeykoh",
+        "link": "https://github.com/Alexeykoh"
+      },
+      {
+        "type": "call",
+        "value": "+375-255-44-94-68",
+        "link": "tel:+375-255-44-94-68"
+      }
+    ]
+  },
+  "about": [
+    {
+      "title": "",
+      "text": "Frontend Developer with one year of experience in leveraging JavaScript frameworks to build responsive websites, web applications, and interactive features that drive business growth."
+    },
+    {
+      "title": "",
+      "text": "In development I use tools such as React/Angular, Typescript, Redux/NGRX, Axios, SCSS/Tailwind Node.js, Express.js, Webpack, ESLint, Git."
+    }
+  ],
+  "education": [
+    { "title": "Higher education", "education": "Finance and credit" },
+    { "title": "Higher education", "education": "Software engineer" },
+    { "title": "RS School", "education": "Front-end Developer" }
+  ],
+  "hardSkills": [
+    { "name": "HTML", "progress": "80" },
+    { "name": "CSS/SCSS/Tailwind", "progress": "80" },
+    { "name": "JS", "progress": "75" },
+    { "name": "TS", "progress": "60" },
+    { "name": "React", "progress": "70" },
+    { "name": "Redux", "progress": "50" },
+    { "name": "Next", "progress": "50" },
+    { "name": "Node/Express", "progress": "50" },
+    { "name": "Angular", "progress": "50" },
+    { "name": "RxJs", "progress": "40" },
+    { "name": "NgRx", "progress": "50" }
+  ],
+  "softSkills": [
+    {
+      "icon": "fa-regular fa-comments",
+      "skill": "Communication and Negotiation Skills"
+    },
+    {
+      "icon": "fa-regular fa-compass",
+      "skill": "Leadership, Responsibility and Motivation"
+    },
+    { "icon": "fa-solid fa-compass", "skill": "Teamwork" }
+  ],
+  "experience": [
+    {
+      "title": "Website development for TLS ENG",
+      "period": "07.2021 — 01.2022",
+      "description": "The site was developed based on the Bootstrap framework. JQuery and popper.js were used for user interaction. Working with Figma layout Working in a team with a designer.",
+      "link": ""
+    },
+    {
+      "title": "Website development for Language Solutions",
+      "period": "03.2021 - 07.2022",
+      "description": "The site was developed based on the Bootstrap + lottiefiles Player framework. To interact with the server and database, the OctoberCMS framework was used on the Laravel (PHP) backend.",
+      "link": ""
+    },
+    {
+      "title": "News editor app of BISC Portal",
+      "period": "09.2022 - 03.2023",
+      "description": "Development of an HTML elements editor for a news portal. Application based on React, TypeScript, ReactHooks, Swiper, BeautifulDND, TipTap, Tailwind.",
+      "link": ""
+    },
+    {
+      "title": "Development and support of a corporate portal of BISC",
+      "period": "03.2023 - 01.2024",
+      "description": "Optimization, development of services widgets and additional functionality. Used Angular 16, NGRX, ViewportScroller, Tailwind.",
+      "link": ""
+    },
+    {
+      "title": "Website development for Lukan.by",
+      "period": "05.2023 - 08.2023",
+      "description": "Website development using React. Participated in the development of components, a search engine, and a site navigation system. Working with API, database. Admin panel develop.",
+      "link": "https://www.lukan.by/home"
+    }
+    ,
+    {
+      "title": "Website development for Eventtochka.by",
+      "period": "06.2023 - 10.2023",
+      "description": "Website development using React. Interface development, SEO, animation for Lotifiles.",
+      "link": "https://eventtochka.by/"
+    }
+  ]
+}

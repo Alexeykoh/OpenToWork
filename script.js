@@ -84,7 +84,7 @@ experience.innerHTML = null;
 data.experience.forEach(({ title, period, description, link }) => {
   const element = document.createElement("li");
   element.classList =
-    "flex flex-col p-2 rounded-xl duration-75 hover:bg-gray-300";
+    "flex flex-col p-2 duration-75 hover:bg-gray-300 border-l-4 border-gray-400 ";
   element.innerHTML = `
   <div class>
                 <p class="font-light text-xs">${period}</p>
@@ -93,6 +93,7 @@ data.experience.forEach(({ title, period, description, link }) => {
               <p>
                 ${description}
               </p>
+              <a class="p-1 text-sky-500" href="${link}">${link}</a>
   `;
   experience.appendChild(element);
 });

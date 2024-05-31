@@ -32,7 +32,7 @@
   "about": [
     {
       "title": "",
-      "text": "Frontend Developer with one year of experience in leveraging JavaScript frameworks to build responsive websites, web applications, and interactive features that drive business growth."
+      "text": "Frontend Developer with more then two years of experience in leveraging JavaScript/TypeScrypt frameworks to build responsive websites, web applications, and interactive features that drive business growth."
     },
     {
       "title": "",
@@ -47,11 +47,11 @@
   "hardSkills": [
     { "name": "HTML", "progress": "80" },
     { "name": "CSS/SCSS/Tailwind", "progress": "80" },
-    { "name": "JS", "progress": "75" },
-    { "name": "TS", "progress": "60" },
+    { "name": "JS", "progress": "85" },
+    { "name": "TS", "progress": "75" },
     { "name": "React", "progress": "70" },
     { "name": "Redux", "progress": "50" },
-    { "name": "Next", "progress": "50" },
+    { "name": "Next", "progress": "65" },
     { "name": "Node/Express", "progress": "50" },
     { "name": "Angular", "progress": "50" },
     { "name": "RxJs", "progress": "40" },
@@ -105,6 +105,20 @@
       "period": "06.2023 - 10.2023",
       "description": "Website development using React. Interface development, SEO, animation for Lotifiles.",
       "link": "https://eventtochka.by/"
+    }
+    ,
+    {
+      "title": "Fitness service GYM-Rat (suspended)",
+      "period": "01.2024 - 03.2024",
+      "description": "Developed using Next.js/TypeScript. Development architecture based on FSD. Styling done using TailwindCSS. Interaction with REST API, data fetching and distribution done with TanstackQuery. Redux was not used. Database based on noSQL/MongoDB and Mongoose library. Monolithic architecture. OAuth authorization without additional integrations (temporarily).",
+      "link": "https://github.com/Alexeykoh/gym-rat"
+    }
+    ,
+    {
+      "title": "Reactive component library - IO ",
+      "period": "03.2024 - 05.2024",
+      "description": "Fully developed and designed. Task prioritization in task manager. Development of the library core, main components, and additional modules. Mentoring in the team. TypeScript was used in development without third-party libraries. ESLint, Prettier, Husky were used for code quality control.",
+      "link": "https://github.com/Alexeykoh/IO"
     }
   ]
 }
